@@ -1,0 +1,166 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;/*moz火狐浏览器*/
+	-webkit-box-sizing: border-box;/*(webkit内核浏览器)*/
+	box-sizing: border-box;
+}
+/*公共样式开始*/
+body{
+	max-width: 720px;
+	margin: 0 auto;
+}
+html body{
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-family: "microsoft yahei","arial","arial black";
+}
+i{
+	font-style: normal;
+}
+a,a:hover,a:active{
+	text-decoration: none;
+	color: #333333;
+}
+input,textarea,select{
+	outline: none;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
+li{
+	list-style: none;
+}
+/*公共样式结束*/
+header{
+	background: url(https://cdnjson.com/images/2024/03/23/china3155517100e29f2d.png)no-repeat;
+	background-position: center center;
+	background-size:100% 100%;
+}
+.dream{
+	width: 100%;
+}
+#dream-a{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+#dream-a img{
+	width: 96%;
+	height: 180px;
+	margin-top: 10%;
+}
+.Button{
+	width: 100%;
+	text-align: center;
+}
+.Button-a{
+	width: 40%;
+	height: 38px;
+	margin: auto;
+	margin-top: 5px;
+	border-radius: 16px;
+	border: 1px solid #C99377;
+}
+.Button-a div{
+	width: 98%;
+	margin: auto;
+	height: 32.5px;
+	margin-top: 2px;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 31.5px;
+	border-radius: 16px;
+	letter-spacing: 1.5px;
+	border: 1px solid #C99377;
+	text-shadow: 1px 1px 1px #d7d7d7;
+	background: rgba(201,147,119,0.7);
+}
+.Button-a div:hover{
+	border-radius: 16px;
+	background: rgba(252,200,173,0.7);
+}
+.Button-b{
+	width: 40%;
+	height: 38px;
+	margin: auto;
+	margin-top: 15px;
+	border-radius: 16px;
+	border: 1px solid #C99377;
+}
+.Button-b div{
+	width: 98%;
+	margin: auto;
+	height: 32.5px;
+	margin-top: 2px;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 31.5px;
+	border-radius: 16px;
+	letter-spacing: 1.5px;
+	border: 1px solid #C99377;
+	text-shadow: 1px 1px 1px #d7d7d7;
+	background: rgba(201,147,119,0.7);
+}
+.Button-b div:hover{
+	border-radius: 16px;
+	background: rgba(252,200,173,0.7);
+}
+.Button-c{
+	width: 40%;
+	height: 38px;
+	margin: auto;
+	margin-top: 15px;
+	border-radius: 16px;
+	border: 1px solid #C99377;
+}
+.Button-c div{
+	width: 98%;
+	margin: auto;
+	height: 32.5px;
+	margin-top: 2px;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 31.5px;
+	border-radius: 16px;
+	letter-spacing: 1.5px;
+	border: 1px solid #C99377;
+	text-shadow: 1px 1px 1px #d7d7d7;
+	background: rgba(201,147,119,0.7);
+}
+.Button-c div:hover{
+	border-radius: 16px;
+	background: rgba(252,200,173,0.7);
+}
+.remind{
+	width: 99%;
+	margin: auto;
+	margin-top: 15%;
+	line-height: 23px;
+	border-radius: 10px;
+	text-align: justify;
+	letter-spacing: 1.3px;
+	border: 1px solid #C99377;
+	background: rgba(201,147,119,0.9);
+}
+.remind span{
+	margin-left: 4px;
+}
+.remind a{
+	color: #fff;
+}
+.remind #so-yq{
+	color: #f6ff04;
+}
+.copyright{
+	width: 100%;
+	color: #e0dcde;
+	margin-top: 43%;
+	text-align: center;
+	line-height: 30px;
+}
+.nwwss{
+	display: none;
+}
